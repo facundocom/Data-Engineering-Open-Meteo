@@ -82,10 +82,10 @@ class extraccion:
 	            inclusive = "left"
             ),}
 
-            hourly_data["Temperatura"] = hourly_temperature_2m
-            hourly_data["Velocidad del viento"] = hourly_wind_speed_10m
-            hourly_data["Rachas del viento"] = hourly_wind_gusts_10m
-            hourly_data["Dirección del viento"] = hourly_wind_direction_10m
+            hourly_data["temperature_2m"] = hourly_temperature_2m
+            hourly_data["wind_speed_10m"] = hourly_wind_speed_10m
+            hourly_data["wind_gusts_10m"] = hourly_wind_gusts_10m
+            hourly_data["wind_direction_10m"] = hourly_wind_direction_10m
 
             hourly_dataframe = pd.DataFrame(data = hourly_data)
             #print("\nPronostico cada una hora\n", hourly_dataframe)
