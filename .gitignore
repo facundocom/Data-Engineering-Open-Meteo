@@ -1,0 +1,11 @@
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales (¡Muy importante no subir esto!)
+.venv/
+venv/
+env/
+
+# Variables de entorno y claves secretas (SEGURIDAD)
+.env
